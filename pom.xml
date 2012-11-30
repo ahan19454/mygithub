@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.villanova.cq</groupId>
+  <artifactId>villanova-cms</artifactId>
+  <version>1.1.80</version>
+  <packaging>pom</packaging>
+  
+  <name>Villanova CQ5 CMS</name>
+  
+  <modules>
+  	<module>app</module>
+  	<!--<module>core</module>-->
+  </modules>
+
+  <scm>
+    <connection>scm:svn:https://svn.villanova.edu/svn/Projects/vu-day/branch/homepage</connection>
+    <developerConnection>scm:svn:https://svn.villanova.edu/svn/Projects/vu-day/branch/homepage</developerConnection>
+    <url>scm:svn:https://svn.villanova.edu/svn/Projects/vu-day/branch/homepage</url>
+  </scm>
+</project>
